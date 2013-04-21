@@ -21,4 +21,4 @@ require(dirname(__FILE__) . '/InlineManual/InlineManual_ApiConnectionError.php')
 require(dirname(__FILE__) . '/InlineManual/InlineManual_ApiRequest.php');
 
 // Resources
-require(dirname(__FILE__) . '/InlineManual/InlineManual_Player.php');
+require(dirname(__FILE__) . '/InlineManual/InlineManual_Site.php');

@@ -12,7 +12,7 @@ InlineManual::$site_api_key = 'YOUR_SITE_API_KEY';
 InlineManual::$verify_ssl_certs = FALSE;
 
 try {
-  $topics = InlineManual_Player::fetchAllTopics();
+  $topics = InlineManual_Site::fetchAllTopics();
   foreach ($topics as $topic) {
     print "$topic->id: $topic->title\n";
   }
