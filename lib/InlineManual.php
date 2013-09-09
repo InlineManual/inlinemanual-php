@@ -1,12 +1,12 @@
 <?php
 
 
-// This snippet (and some of the curl code) was inspired by Facebook SDK.
+// This snippet (and some of the curl code) was inspired by Stripe and Facebook SDK.
 if (!function_exists('curl_init')) {
-  throw new Exception('Stripe needs the CURL PHP extension.');
+  throw new Exception('InlineManual API client needs the CURL PHP extension.');
 }
 if (!function_exists('json_decode')) {
-  throw new Exception('Stripe needs the JSON PHP extension.');
+  throw new Exception('InlineManual API client needs the JSON PHP extension.');
 }
 
 // Settings
