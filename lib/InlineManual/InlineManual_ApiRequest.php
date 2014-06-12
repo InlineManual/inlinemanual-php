@@ -94,7 +94,7 @@ class InlineManual_ApiRequest {
     if (InlineManual::$verify_ssl_certs) {
       $options[CURLOPT_SSL_VERIFYPEER] = TRUE;
       $options[CURLOPT_SSL_VERIFYHOST] = 2;
-      $options[CURLOPT_CAINFO]         = dirname(__FILE__) . '/../data/GeoTrustGlobalCA.crt';
+      $options[CURLOPT_CAINFO]         = dirname(__FILE__) . '/../data/ca-bundle.crt';
     }
     else {
       $options[CURLOPT_SSL_VERIFYPEER] = FALSE;
