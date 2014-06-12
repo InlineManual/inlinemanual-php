@@ -6,5 +6,5 @@ abstract class InlineManual {
   public static $api_base = 'https://inlinemanual.com/api';
   public static $api_version = NULL;
   public static $verify_ssl_certs = TRUE;
-  const VERSION = '0.1.0';
+  const VERSION = '0.1.1';
 }
